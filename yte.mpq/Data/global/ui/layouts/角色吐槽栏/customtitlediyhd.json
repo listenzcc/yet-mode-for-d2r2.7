@@ -1,0 +1,35 @@
+{
+    "type": "Panel", "name": "CustomTitleDiy",
+    "fields": {
+        "anchor":  { "x": 0.5, "y": 0.5 },
+        "priority": -110,
+        "isDismissable": false,//false  true
+    },
+    "children": [
+        {
+            "type": "NineTileImageWidget", "name": "CustomTitleDiyBox",
+            "fields": {
+                "rect": { "x": -500, "y": -500, "width": 1000, "height": 120 },
+                "filename": "PANEL/TooltipBorder/TooltipBorder",
+                "backgroundColor": [ 0.0, 0.0, 0.0, 0.20 ],
+                "tileScale": 1.0,
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "Title",
+                    "fields": {
+                        "rect": { "x": 0, "y": 0, "width": 1000, "height": 120 },
+                        "style": {
+                            "fontColor": "$FontColorGoldYellow",
+                            "alignment": { "h": "center", "v": "center" },
+                            "options": { "lineWrap": true, "pipeCharacterBehavior": "handle", "newlineHandling": "standard" },
+                            "pointSize": "$LargeFontSize",
+                            "spacing": "$DefaultSpacing",
+                        },
+                        "text": "@customtitlediystr", 
+                    }
+                },
+            ]
+        },
+    ]
+}

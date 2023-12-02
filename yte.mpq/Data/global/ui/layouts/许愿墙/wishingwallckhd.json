@@ -1,0 +1,129 @@
+{
+    "type": "UKComplianceModal", "name": "WishingWallCk",
+    "fields": {
+        "drawTint": false,
+        "anchor":  { "x": 1.0, "y": 0.0 },
+        "priority": -110,
+        "isDismissable": true,
+    },
+        "children": [
+            {
+                "type": "Widget", "name": "WWHeaderTileb",
+                "fields": {
+                    "rect": { "x": -430, "y": 542, "width": 360, "height": 0 },
+                },
+                "children": [
+                    {
+                        "type": "ButtonWidget", "name": "WWSettingsBtn",
+                        "fields": {
+                                "rect": { "x": 310, "y": -20, "width": 50, "height": 45 },
+                                "onClickMessage": "ModalMessage:Confirm:Mods\\yte\\yte.mpq\\Data\\local\\lng\\strings\\npcs.json",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistedit",
+                                "textColor": "$FontColorGray",
+                                "text/style" : "$StyleFEMultiLineButtonText",
+                                "textString": "ㅀ", 
+                            }
+                    }
+                ]
+            },
+            {
+                "type": "Widget", "name": "WWBodyTileb",
+                "fields": {
+                    "rect": { "x": -430, "y": 588, "width": 360, "height": 470 },
+                },
+                    "children": [
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn1",
+                            "fields": {
+                                "rect": { "x": 4, "y": 20, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk1",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn2",
+                            "fields": {
+                                "rect": { "x": 4, "y": 60, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk2",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn3",
+                            "fields": {
+                                "rect": { "x": 4, "y": 100, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk3",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn4",
+                            "fields": {
+                                "rect": { "x": 4, "y": 140, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk4",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn5",
+                            "fields": {
+                                "rect": { "x": 4, "y": 180, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk5",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn6",
+                            "fields": {
+                                "rect": { "x": 4, "y": 220, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk6",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn7",
+                            "fields": {
+                                "rect": { "x": 4, "y": 260, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk7",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn8",
+                            "fields": {
+                                "rect": { "x": 4, "y": 300, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk8",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn9",
+                            "fields": {
+                                "rect": { "x": 4, "y": 340, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk9",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "WWBodyBtn10",
+                            "fields": {
+                                "rect": { "x": 4, "y": 380, "width": 360, "height": 40 },
+                                "onClickMessage": "PanelManager:TogglePanel:WishingWallCk10",
+                                "pressLabelOffset": { "x": 0, "y": 2 },
+                                "tooltipString": "@wishlistck",
+                                    }
+                        },
+                    ]
+            },
+        ]
+}

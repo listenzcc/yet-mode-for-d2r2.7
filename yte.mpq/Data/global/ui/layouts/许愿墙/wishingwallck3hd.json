@@ -1,0 +1,32 @@
+{
+    "type": "Panel", "name": "WishingWallCk3",
+    "fields": {
+        "anchor":  { "x": 1.0, "y": 0.0 },
+        "priority": -100,
+        "isDismissable": false,
+    },
+        "children": [
+            {
+                "type": "Widget", "name": "WWBodyTileC3",
+                "fields": {
+                    "rect": { "x": -430, "y": 588, "width": 360, "height": 470 },
+                },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyTextC3",
+                            "fields": {
+                                "rect": { "x": 0, "y": 100, "width": 360, "height": 40 },
+                                "text": "                    @wishlistckbtn",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },//true
+                                        },
+                                    }
+                        },
+                    ]
+            },
+        ]
+}

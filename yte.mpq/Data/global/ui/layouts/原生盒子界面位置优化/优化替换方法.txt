@@ -1,0 +1,1 @@
+将此文件夹内的以上文件复制粘贴到Data\global\ui\layouts文件夹下。

@@ -1,0 +1,184 @@
+{
+    "type": "Panel", "name": "WishingWall",
+    "fields": {
+        "anchor":  { "x": 1.0, "y": 0.0 },
+        "priority": -110,
+        "isDismissable": false,
+    },
+        "children": [
+            {
+                "type": "NineTileImageWidget", "name": "WWHeaderTile",
+                "fields": {
+                    "filename": "PANEL/TooltipBorder/TooltipBorder",
+                    "backgroundColor": [ 0.0, 0.0, 0.0, 0.30 ],
+                    "tileScale": 1.0,
+                    "rect": { "x": -430, "y": 542, "width": 360, "height": 0 },
+                },
+                "children": [
+                    {
+                        "type": "TextBoxWidget", "name": "WWHeaderText",
+                        "fields": {
+                            "text": "@wishingwalltitle",
+                            "fitToParent": true,
+                            "style": {
+                                "pointSize": "$MediumLargeFontSize",
+                                "alignment": { "v": "center", "h": "center" },
+                                "fontColor": "$FontColorGold",
+                            }
+                        }
+                    },
+                ]
+            },
+            {
+                "type": "NineTileImageWidget", "name": "WWBodyTile",
+                "fields": {
+                    "filename": "PANEL/TooltipBorder/TooltipBorder",
+                    "backgroundColor": [ 0.0, 0.0, 0.0, 0.30 ],
+                    "tileScale": 1.0,
+                    "rect": { "x": -430, "y": 588, "width": 360, "height": 470 },
+                },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText1",
+                            "fields": {
+                                "rect": { "x": 4, "y": 20, "width": 360, "height": 40 },
+                                "text": "@wishlist1",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText2",
+                            "fields": {
+                                "rect": { "x": 4, "y": 60, "width": 360, "height": 40 },
+                                "text": "@wishlist2",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText3",
+                            "fields": {
+                                "rect": { "x": 4, "y": 100, "width": 360, "height": 40 },
+                                "text": "@wishlist3",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText4",
+                            "fields": {
+                                "rect": { "x": 4, "y": 140, "width": 360, "height": 40 },
+                                "text": "@wishlist4",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText5",
+                            "fields": {
+                                "rect": { "x": 4, "y": 180, "width": 360, "height": 40 },
+                                "text": "@wishlist5",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText6",
+                            "fields": {
+                                "rect": { "x": 4, "y": 220, "width": 360, "height": 40 },
+                                "text": "@wishlist6",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText7",
+                            "fields": {
+                                "rect": { "x": 4, "y": 260, "width": 360, "height": 40 },
+                                "text": "@wishlist7",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText8",
+                            "fields": {
+                                "rect": { "x": 4, "y": 300, "width": 360, "height": 40 },
+                                "text": "@wishlist8",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText9",
+                            "fields": {
+                                "rect": { "x": 4, "y": 340, "width": 360, "height": 40 },
+                                "text": "@wishlist9",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "WWBodyText10",
+                            "fields": {
+                                "rect": { "x": 4, "y": 380, "width": 360, "height": 40 },
+                                "text": "@wishlist10",
+                                "fitToText": true,
+                                "style": {
+                                    "pointSize": 28,//"$MediumFontSize"
+                                    "alignment": { "v": "top", "h": "left" },
+                                    "spacing": { "leading": 0.9 },
+                                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": false },
+                                        },
+                                    }
+                        },
+                    ]
+            },
+        ]
+}
