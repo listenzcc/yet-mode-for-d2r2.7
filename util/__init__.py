@@ -19,8 +19,7 @@ Functions:
 # %% ---- 2023-12-02 ------------------------
 # Requirements and constants
 import os
-import json
-from jsoncomment import JsonComment
+import pandas as pd
 
 from rich import print, inspect
 from tqdm.auto import tqdm
